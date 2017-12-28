@@ -1,29 +1,37 @@
 # DemoLibrary 
 
 # 导入步骤
-#  方式1：compile
-  NO.1
-  allprojects {
+##  方式1：compile
+######  NO.1
+ <pre><code> allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  NO.2 
-  	dependencies {
+	</code></pre>
+######  NO.2 
+<pre><code>
+	<code>dependencies {
 	        compile 'com.github.androidlike:DemoLibrary:1.0'
 	}
-  方式2：maven
-  No.1
-  <repositories>
+	</code>
+</pre>	
+	
+##  方式2：maven
+  
+##### No.1
+  <pre><code><repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-  No.2
-  <dependency>
+</code></pre>	
+##### No.2
+ <pre><code> <dependency>
 	    <groupId>com.github.androidlike</groupId>
 	    <artifactId>DemoLibrary</artifactId>
 	    <version>1.0</version>
 	</dependency>
+</code></pre>
