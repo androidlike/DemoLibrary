@@ -20,12 +20,11 @@ public class CDialogMethod {
         dialog.setButton(1, "确定", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                
+                dialog.dismiss();
+
             }
         });
-
-
-
+        dialog.show();
 
     }
 
