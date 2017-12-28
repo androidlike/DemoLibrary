@@ -13,7 +13,7 @@
 #######  NO.2 
 <pre><code>
 	<code>dependencies {
-	        compile 'com.github.androidlike:DemoLibrary:1.0'
+	        compile 'com.github.androidlike:DemoLibrary:1.1'
 	}
 	</code>
 </pre>	
