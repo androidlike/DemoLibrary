@@ -13,16 +13,16 @@ public class CDialogMethod {
 
     public static void showDialog(Activity  activity){
 
-        AlertDialog.Builder  builder=new AlertDialog.Builder(activity);
-        builder.setTitle("first kotlin");
-        builder.setMessage("success show dialog!");
-        builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
-            @Override
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        AlertDialog dialog = builder.create();
+        dialog.setTitle("first library!");
+        dialog.setMessage("success show dialog!");
+        dialog.setButton(1, "确定", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-                    dialog.dismiss();
+                dialog.dismiss();
             }
         });
-        builder.create().show();
+        dialog.show();
 
 
     }
