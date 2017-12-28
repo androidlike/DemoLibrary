@@ -1,8 +1,8 @@
 # DemoLibrary 
 
-#导入步骤
-  方式1：compile
- NO.1
+# 导入步骤
+#  方式1：compile
+  NO.1
   allprojects {
 		repositories {
 			...
